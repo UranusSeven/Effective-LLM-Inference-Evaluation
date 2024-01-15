@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "elie"
+version = "0.0.1"
+description = "A project aimed at measuring the real-world performance of Large Language Model (LLM) inference frameworks, inspired by the concepts in deepspeed-fastgen."
+authors = ["Zhong Wang"]
+license = "Apache License 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
